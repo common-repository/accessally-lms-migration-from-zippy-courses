@@ -1,0 +1,251 @@
+.full-width{
+	width:100%;
+}
+.accessally-setting-title {
+	color:#00a5b3;
+	font-size:30px;
+	margin:20px 20px 0 20px;
+	line-height:30px;
+}
+.accessally-setting-container {
+	margin: 40px 0 0 0;
+	background:#ffffff;
+	border-width: 1px 0 0 1px;
+	border-style: solid;
+	border-color: #e4e4e4;
+	width:1000px;
+	border-spacing: 0;
+	background-repeat: repeat;
+}
+.accessally-setting-section {
+	padding:15px 30px;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #e4e4e4;
+}
+.accessally-setting-table {
+	border-collapse: collapse;
+	width:100%;
+}
+.accessally-setting-table td{
+	padding:10px;
+	vertical-align:top;
+}
+.accessally-setting-header {
+	color:#00a5b3;
+	font-size:18px;
+}
+.accessally-setting-section-help-text {
+	font-style: italic;
+	font-size:12px;
+	margin:5px 0;
+}
+.accessally-setting-content {
+	background-color: #eafdfd;
+	padding: 10px;
+	border: 1px solid #e4e4e4;
+	margin: 10px;
+	font-size:12px;
+}
+.accessally-setting-convert-button {
+	background-color:#fcc302;
+	border: none;
+	padding: 5px 10px;
+	color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 3px 3px #f1f1f1;
+	cursor:pointer;
+	font-size:12px;
+	margin:20px 0;
+	display: block;
+	width: 120px;
+	text-align: center;
+	text-decoration:none;
+}
+.accessally-setting-convert-button:hover {
+	background-color:#00a5b3;
+}
+.accessally-setting-cancel-button {
+	background-color:#e4e4e4;
+	border: none;
+	padding: 10px 15px;
+	color: #000000;
+	border-radius: 5px;
+	box-shadow: 0 0 3px 3px #f1f1f1;
+	cursor:pointer;
+	font-size:12px;
+	margin:20px 0;
+	display: block;
+	width: 120px;
+	text-align: center;
+}
+.accessally-setting-cancel-button:hover {
+	background-color:#ff1111;
+	color:#ffffff;
+}
+.accessally-setting-message-container{
+	background-color: #eafdfd;
+    padding: 10px;
+    border: 1px solid #e4e4e4;
+    margin: 10px 0;
+}
+.accessally-setting-error-message{
+	background-color: #eafdfd;
+    padding: 10px;
+    border: 1px solid #e4e4e4;
+    margin: 10px 0;
+	color:#ff1111;
+    font-size: 12px;
+}
+#accessally-zippy-course-convert-wait-overlay{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:fixed;
+	bottom:0;
+	right:0;
+	display:none;
+	background-color:rgba(80,80,80,0.5);
+	z-index:1;
+}
+#accessally-zippy-course-convert-wait-overlay .accessally-zippy-course-convert-wait-content{
+	position:absolute;
+	top:50%;
+	left:0;
+	margin:-64px 0 0 0;
+	width:100%;
+	text-align:center;
+}
+#accessally-zippy-course-convert-wait-detailed-message {
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 32px;
+	color: white;
+	margin: 10px auto;
+}
+.accessally-scroll-list{
+	overflow:auto;
+	max-height:600px;
+}
+.accessally-imported-row:nth-child(even){
+	background-color:#f4f4f4;
+}
+.accessally-process-section{
+	margin:20px 0;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #e4e4e4;
+}
+.accessally-setting-config-section{
+	margin:10px 0;
+}
+.accessally-setting-warning-section{
+border:2px solid #FF2652;
+background-color:#f5f5f5;
+color: red;
+padding:5px 10px;
+margin:0 0 10px 0;
+}
+.accessally-zippy-list-existing-row ul{
+	margin:0;
+}
+.accessally-zippy-list-existing-row ul ul{
+	margin:10px 0;
+	padding-left:10px;
+}
+.accessally-zippy-course-id-col{
+	text-align:center;
+}
+.accessally-zippy-course-title-col{
+	text-align:center;
+}
+td.accessally-zippy-course-detail-col{
+	padding:20px;
+}
+td.accessally-zippy-course-convert-col{
+	padding:10px 0 0 10px;
+	vertical-align:top;
+}
+/* -------------------- converted course table ------------------- */
+.accessally-zippy-list-existing-container {
+	padding: 30px 0;
+}
+.accessally-zippy-list-existing {
+	width: 100%;
+	border-collapse: collapse;
+}
+.accessally-zippy-list-existing th{
+	padding: 15px 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	border: 1px solid #e4e4e4;
+	text-align:center;
+}
+.accessally-zippy-list-existing td{
+	font-weight: normal;
+	border: 1px solid #e4e4e4;
+}
+.accessally-zippy-list-existing-row:nth-child(odd) {
+	background-color: #f1f1f1;
+}
+td.accessally-zippy-list-existing-name-col{
+	padding-left:20px;
+}
+.accessally-zippy-list-existing-edit-col{
+	width:150px;
+}
+.accessally-zippy-list-existing-revert-col{
+	width:150px;
+}
+td.accessally-zippy-list-existing-edit-col{
+	text-align:center;
+}
+td.accessally-zippy-list-existing-revert-col{
+	text-align:center;
+}
+.accessally-zippy-list-existing-row-show {
+	background-color:#fcc302;
+	border: none;
+	padding: 1px 6px 1px 18px;
+	color: #ffffff;
+	border-radius: 8px;
+	cursor:pointer;
+	font-size:12px;
+	line-height:18px;
+	text-align: center;
+	display:inline-block;
+	width:40px;
+	margin:7px 5px;
+	background-image: url('pencil.png');
+	background-repeat:no-repeat;
+	background-position: 11px 50%;
+	text-decoration:none;
+}
+.accessally-zippy-list-existing-row-show:hover {
+	cursor: pointer;
+	background-color:#00a5b3;
+}
+.accessally-zippy-list-existing-row-revert {
+	background-color:#575757;
+	border: none;
+	padding: 1px 6px 1px 24px;
+	color: #ffffff;
+	border-radius: 8px;
+	cursor:pointer;
+	font-size:12px;
+	line-height:18px;
+	text-align: center;
+	display:inline-block;
+	width:40px;
+	margin:7px 5px;
+	background-image: url('revert.png');
+	background-repeat:no-repeat;
+	background-position: 11px 50%;
+}
+.accessally-zippy-list-existing-row-revert:hover {
+	cursor: pointer;
+	background-color:#ff1111;
+	color:#ffffff;
+}
+/* -------------------- END converted course table ------------------- */
